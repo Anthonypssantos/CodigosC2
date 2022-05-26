@@ -19,10 +19,21 @@ main(){
 	}
 	
 	
-	for (i=0;i<1;i++){
+	system("cls");
+	
+	printf("++++++++++Saida de dados++++++++++\n\n");
+	for (i=11;i>0;i--){
 		
-		printf("Ultimo: [%i]\nDecimo: [%i]\nNono: [%i]\nOitavo: [%i]\nSetimo: [%i]\nSexto: [%i]\nQuinto: [%i]\nQuarto: [%i]\nTerceiro: [%i]\nSegundo: [%i]\nPrimeiro: [%i]\n", vetor[10], vetor[9], vetor[8], vetor[7], vetor[6], vetor[5], vetor[4], vetor[3], vetor[2], vetor[1], vetor[0]);
-		
+		printf("Invercao: [%i]\n", vetor[i]);	
 	}
 	
+	printf("\n\nOutra tabela em ordem\n\n");
+	
+	for (i=0;i<11;i++){
+		
+		printf("Ordem inicial: [%i]\n", vetor[i]);	
+	}
+	
+	
+
 }
